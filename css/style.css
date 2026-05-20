@@ -516,7 +516,7 @@ blockquote {
 .profile__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.875rem;
+  gap: 1rem;
 }
 .profile-card {
   padding: 1.5rem;
@@ -543,9 +543,10 @@ blockquote {
 .profile-card li {
   position: relative;
   padding-left: 1.8125rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: var(--color-ink-900);
   line-height: 1.5;
+  font-weight: 500;
 }
 .profile-card--negative li:before,
 .profile-card--positive li:before {
@@ -572,6 +573,7 @@ blockquote {
   }
 }
 .environment {
+  margin-bottom: 5rem;
   padding-block: 5rem;
   padding-inline: 2rem;
   background-color: var(--color-brand-black);
@@ -1201,4 +1203,8 @@ blockquote {
     height: 40rem;
     border-radius: 1.25rem;
   }
+}
+
+.cupola-cta {
+  padding: 5rem 0rem 5rem 0rem;
 }
