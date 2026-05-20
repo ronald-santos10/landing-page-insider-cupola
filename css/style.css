@@ -193,7 +193,7 @@ p {
   min-height: 36.375rem;
   margin-top: 1.875rem;
   padding: 1.1875rem 9.3125rem 1.1875rem 13.375rem;
-  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  border-radius: var(--radius-lg);
   display: grid;
   grid-template-columns: 26rem 1fr;
   align-items: center;
@@ -354,6 +354,7 @@ blockquote {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
+  border-radius: var(--radius-lg);
 }
 .insider-card {
   width: min(59.625rem, calc(100% - 3rem));
@@ -1187,10 +1188,10 @@ blockquote {
 
 /* MOBILE */
 @media (max-width: 48rem) {
- .apply {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-}
+  .apply {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
 
   .apply__header h2 {
     font-size: 2rem;
